@@ -3,7 +3,7 @@ public class BasicMathOperations {
    public static void main(String args[]){
 	   BasicMathOperations tester = new BasicMathOperations();
 		
-      //with type declaration
+      //with type declaration ::
       MathOperation addition = (int a, int b) -> a + b;
 		
       //with out type declaration
