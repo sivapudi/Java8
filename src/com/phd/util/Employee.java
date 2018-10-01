@@ -16,11 +16,22 @@ public class Employee {
 		this.lastName = lName;
 	}
 
-	@Override
+	public Employee(Integer id, String firstName, String lastName, Integer age) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+	}
+
+	/*@Override
 	public String toString() {
 		return this.firstName.toString() + " - " + this.age.toString();
 
-	}
+	}*/
+	@Override
+    public String toString() {
+        return "\t["+this.id+","+this.firstName+","+this.lastName+","+this.age+"]";
+    }
 
 	public Integer getId() {
 		return id;
