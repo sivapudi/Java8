@@ -8,7 +8,7 @@ import com.phd.util.Student;
 public class PredicateTest {
 	public static void main(String[] args) {
 
-		Predicate<Student> maleTest = s -> s.getAge() >= 21 && "PHD".equals(s.getGender());
+		Predicate<Student> maleTest = s -> s.getAge() >= 21 && "male".equals(s.getGender());
 		Predicate<Student> feMaleTest = s -> s.getAge() >= 18 && "female".equalsIgnoreCase(s.getGender());
 
 		Function<Student, String> maleStyle = s -> "Hi, You are male and age " + s.getAge();
