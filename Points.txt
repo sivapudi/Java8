@@ -1,1 +1,2 @@
 1. IntStream.range(2, number).noneMatch(Predicate) is an alternative for FOR loop.
+2.
